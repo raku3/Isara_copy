@@ -70,7 +70,9 @@ abbr[title] {
 a {
   background-color: transparent; /* Remove the gray background on active links in IE 10 */
 }
-
+p {
+  margin: 0 0 10px;
+}
 a:active,
 a:hover {
   outline-width: 0; /* Remove the outline when hovering in all browsers */
@@ -382,6 +384,7 @@ header {
   position: fixed;
   z-index: 10;
   width: 100%;
+  background-color: #fff;
 }
 
 .logo {
@@ -392,7 +395,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #fff;
   max-width: calc(100% - 20px);
   height: 75px;
   width: 100%;
@@ -415,12 +417,12 @@ header {
 
 .subtitle p {
   font-weight: 600;
-  margin-bottom: 0;
+  position: relative;
+  margin-top: 10px;
 }
 
 .headcontact {
   color: #fff;
-  height: 100%;
   background-color: #da6b64;
   display: flex;
   flex-direction: column;
@@ -434,13 +436,15 @@ header {
 }
 .contactpc {
   border-radius: 20px;
-  padding: 20px;
+  padding: 11px 40px;
 }
 .contactsp {
   display: none;
 }
 .main {
   padding-top: 75px;
+  font-size: 28px;
+  font-weight: 600;
 }
 .top_section {
   width: 100%;
@@ -482,6 +486,7 @@ header {
   max-width: 1028px;
   justify-content: center;
   align-items: center;
+  font-size: 28px;
 }
 
 .conversionbtn:hover {
